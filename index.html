@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo/imc.css">
+</head>
+<body>
+    <form action="estilo/index.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Caucule seu IMC</legend>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" autocomplete="nome" required>
+            <br>
+            <label for="ipeso">Peso</label>
+            <input type="number" name="peso" id="ipeso" required>
+            <br>
+            <label for="alt">Altura</label>
+            <input type="number" name="alt" id="ialt" required>
+            <br>
+            <input type="reset" value="Limpar">
+            <input type="button" value="Calcular">
+        </fieldset>
+    </form>
+</body>
+</html>
